@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(54, 54, 54);
+}
+
+/* HEADER */
+.header{
+    position: fixed;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+ .logo{
+    position: absolute;
+    left: 25px;
+}
+
+.logo h2{
+    font-size: 1.3rem;
+    font-family: fantasy;
+    letter-spacing: 10px;
+    background: linear-gradient(rgb(133, 9, 9), rgb(255, 119, 8));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin:0;
+}
+.logo span{
+    background: none;   
+    letter-spacing: 1px;       
+    -webkit-background-clip: initial; 
+    background-clip: initial;
+    color: white;     
+    font-family:Arial;        
+    -webkit-text-fill-color: rgb(9, 68, 116);
+}
+/* NAV CONTAINER */
+.container{
+    width: 100%;
+    max-width: 1060px;
+}
+
+/* NAVBAR */
+.nav{
+    width: 100%;
+    background: black;
+    padding: 15px 25px;
+    border-radius: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center; /* CENTER EVERYTHING */
+    position: relative;
+}
+
+.navbar{
+     display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    align-items: center;
+    right: auto;
+}
+
+.nav-icons{
+     position: absolute;
+    right: 25px;
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+}
+.nav-icons{
+    color: #fff;
+}
+.nav-icon i{
+    color: orangered;
+    cursor: pointer;
+}
+
+/* SECTION TITLE */
+.title{
+    color: white;
+    font-size: 30px;
+    margin: 120px 0 20px 100px;
+}
+
+/* FLEX ROW */
+.info-columns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    margin-bottom: 50px;
+}
+
+/* LEFT CARD */
+.car-box{
+    width: 400px;
+    height: 200px;
+    background: black;
+    border-radius: 10px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 4px 6px rgba(255,255,255,0.3);
+    transition: 0.4s;
+}
+
+.car-box:hover{
+    transform: scale(1.05);
+}
+
+/* RIGHT CARD */
+.ncar{
+    width: 400px;
+    height: 200px;
+    background: black;
+    border-radius: 10px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 4px 6px rgba(255,255,255,0.3);
+
+    margin-left: auto; /* pushes right */
+     transition: 0.4s;
+}
+.ncar:hover{
+     transform: scale(1.05);
+}
+
+
+.car-box img{
+    max-width: 200%;   /* stay inside the box */
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+     width: 150%;      /* slightly bigger */
+    transform: translateX(-20px); 
+}
+.ncar img{
+    max-width: 250%;       /* image won’t overflow container */
+    max-height: 250%;      /* fill height but maintain ratio */
+    object-fit: contain;   /* keeps proportions */
+    display: block;
+    margin: 0 auto;
+    margin-top:50px ;  
+   
+}
+.elec-box img{
+    max-width: 150%;
+    max-height: 150%;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 90px ;
+    align-items: center;
+    margin-right: 0;
+
+    
+}
+.Van-box img{
+    max-width: 120%;       /* image won’t overflow container */
+    max-height: 120%;      /* fill height but maintain ratio */
+    object-fit: contain;   /* keeps proportions */
+    display: block;
+    
+
+}
+.Bike-box img{
+    max-width: 500px;       /* image won’t overflow container */
+    max-height: 500px;     /* fill height but maintain ratio */
+    object-fit: contain;   /* keeps proportions */
+    display: block;
+    margin: 0 auto; 
+}
+
+/* TEXT */
+.right{
+    width: 50%;
+    color: white;
+    font-size: 16px;
+    line-height: 1.8;
+    size:10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* REVERSE ROW (image right, text left) */
+.reverse{
+    flex-direction: row-reverse;
+}
+.elec-box{
+    width: 400px;
+    height: 200px;
+    background: black;
+    border-radius: 10px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 4px 6px rgba(255,255,255,0.3);
+    transition: 0.4s;
+    margin-left: auto;
+    
+}
+
+.elec-box:hover{
+    transform: scale(1.05);
+}
+.Van-box{
+     width: 400px;
+    height: 200px;
+    background: black;
+    border-radius: 10px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 4px 6px rgba(255,255,255,0.3);
+     transition: 0.4s;
+}
+.Van-box:hover{
+     transform: scale(1.05);
+}
+.Bike-box{
+    width: 400px;
+    height: 200px;
+    background: black;
+    border-radius: 10px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 4px 6px rgba(255,255,255,0.3);
+
+    margin-left: 0px; /* pushes right */
+    transition: 0.4s;
+}
+
+.Bike-box:hover{
+    transform: scale(1.05);
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: rgb(73, 14, 211);
+}

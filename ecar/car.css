@@ -1,0 +1,175 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+.tbl{
+    width: 90%;
+    margin: 50px auto;
+    border-collapse: collapse;
+}
+
+.tbl th{
+    padding: 20px;
+    text-align: center;
+}
+
+.tbl th a{
+    text-decoration: none;
+    color: #000;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.tbl th a:hover{
+    background-color: #666;
+}
+
+
+
+.logo-con h2{
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    background: linear-gradient(rgba(109, 25, 25, 0.74), black, rgba(109, 25, 25, 0.74));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.logo-con{
+   h2{
+    font-size: 3.5rem;
+    font-family: fantasy;
+    letter-spacing: 10px;
+    background: linear-gradient(rgb(95, 4, 4), rgb(255, 119, 8));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 5px;
+}
+
+h2 span {
+    background: none;          
+    -webkit-background-clip: initial; 
+    background-clip: initial;
+    color: white;               
+    -webkit-text-fill-color: rgb(10, 35, 56);
+}
+
+}
+
+.container{ /*ung box*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.prod{ 
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 20px);
+    min-width: 250px;
+    overflow: hidden;
+    max-width: 350px;
+    transition: transform 0.3s ease;
+    margin: 0;
+}
+
+.prod:hover{
+    transform: translateY(-5px);
+}
+
+.prod img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background-size: 60%;
+}
+
+.des{
+    padding: 20px;
+    text-align: left;
+}
+
+.des span{
+    font-size: 0.9rem;
+    color: #999;
+    font-weight: 500;
+}
+
+.des h5{
+    font-size: 1.3rem;
+    color: #333;
+    margin: 8px 0;
+}
+
+h4{
+    font-size: 1.5rem;
+    color: #333;
+    margin: 15px 0 20px 0;
+}
+
+.inq{
+    background-color: #4a6fa5;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.inq:hover{
+    background-color: #385d8e;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.prev{
+    background-color: white;
+    color: #000;
+}
+
+.next{
+    background-color: white;
+    color: #000;
+}
+.nav-icons{
+    color:black;
+    font-size: 25px;
+    transition: 0.3 ease-out;
+     position: absolute;
+    left: 20px; /* sagad sa left */
+    top: 20px;
+}
+.nav-icons :hover{
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+.nav-icons a{
+    color: #fff;
+    text-decoration: none;
+}

@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+body{
+   background: url(rgats8ogapj41.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+   
+
+}
+
+
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+    padding-bottom: 50px;
+
+}
+.contact-box{
+    background: #fff;
+    display: flex;
+}
+
+.container-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+    
+}
+.container-right{
+    flex-basis: 40%;
+    padding: 40px ;
+    background: #1a1a1a;
+    color: #fff;
+}
+h1{
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+}
+.container p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.container-left h3{
+    padding-bottom: 5px;
+}
+
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: #1c00b5;
+}
+.btn{
+    background: #37bcfa;
+    width: 20%;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3 ease-out;
+}
+.nav-icons{
+    color:white;
+    font-size: 25px;
+    transition: 0.3 ease-out;
+}
+.nav-icons :hover{
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+.nav-icons a{
+    color: #fff;
+    text-decoration: none;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+
+tr td{
+    padding-top: 20px;
+}

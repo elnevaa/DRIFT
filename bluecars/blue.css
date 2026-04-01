@@ -1,0 +1,140 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+.tbl{
+    width: 90%;
+    margin: 50px auto;
+    border-collapse: collapse;
+}
+
+.tbl th{
+    padding: 20px;
+    text-align: center;
+}
+
+.tbl th a{
+    text-decoration: none;
+    color: #000;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.tbl th a:hover{
+    background-color: #666;
+}
+
+
+h2{
+    font-size: 2.5rem;
+    color: blue;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+p{
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: 0;
+    margin-bottom: 30px;
+
+}
+
+.container{ /*ung box*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.prod{ 
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 20px);
+    min-width: 250px;
+    overflow: hidden;
+    max-width: 350px;
+    transition: transform 0.3s ease;
+    margin: 0;
+}
+
+.prod:hover{
+    transform: translateY(-5px);
+}
+
+.prod img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background-size: 60%;
+}
+
+.des{
+    padding: 20px;
+    text-align: left;
+}
+
+.des span{
+    font-size: 0.9rem;
+    color: #999;
+    font-weight: 500;
+}
+
+.des h5{
+    font-size: 1.3rem;
+    color: #333;
+    margin: 8px 0;
+}
+
+h4{
+    font-size: 1.5rem;
+    color: #333;
+    margin: 15px 0 20px 0;
+}
+
+.inq{
+    background-color: #4a6fa5;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.inq:hover{
+    background-color: #385d8e;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.prev{
+    background-color: white;
+    color: #000;
+}
+
+.next{
+    background-color: white;
+    color: #000;
+}
+

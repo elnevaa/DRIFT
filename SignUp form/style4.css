@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+}
+
+.title{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.navlinks{
+    display: flex;
+    gap: 25px;
+}
+
+.navlinks a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navlinks a:hover{
+    color: wheat;
+}
+
+.pp{
+    border: 1px solid black;
+    width: 1000px;
+    margin: 100px auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 40px;
+    text-align: justify;
+    line-height: 1.6;
+
+}
+.logo{
+    width:  150px;
+}

@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    background-color: black;
+}
+body::before{
+    content: 'DRIFT';
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    font-size: 11rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2rem;
+    
+    color: rgba(255,255,255,0.15); 
+    
+    z-index: 0;
+}
+
+
+.navbar{
+    
+    
+   background: transparent; 
+    color: #fff;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 10; 
+}
+.brand{
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+
+.nav-links{
+   display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.nav-links a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease-in;
+
+}
+.nav-links a:hover{
+    color: #860303;
+}
+.hero{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../Frontpage/frontpage.avif');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-btn{
+
+    position: absolute;
+    right: 120px;
+    bottom: 100px;
+    padding: 12px 28px;
+    background-color:#fff;
+    color:#a30a0a(161, 27, 27);
+    border-radius: 6px;
+    border: none;  
+    transition: transform 0.5s ease-in ;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.hero-btn :hover{
+    transform: scale(1.1);
+}
+
+.footer{
+      background-color: #2c3e50;
+      color: #fff;
+      text-align: center;
+      padding: 20px 5%;
+
+}
+.hero-btn a{
+ text-decoration: none;
+ 
+}
