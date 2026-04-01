@@ -15,11 +15,11 @@ body{
     display: flex;
     flex-direction: column;
     width: 500px;
-    border: 2px solid rgb(219, 207, 207); /* updated */
+    border: 2px solid rgb(219, 207, 207); 
     margin: 50px auto;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.925);
     border-radius: 25px;
-    padding-bottom: 30px; /* add spacing instead of height */
+    padding-bottom: 30px; 
     background-color: rgba(235, 235, 235, 0.863);
 }
 .title{

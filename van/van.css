@@ -65,7 +65,7 @@ p{
 
 }
 
-.container{ /*ung box*/
+.container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -163,7 +163,7 @@ a:hover{
     font-size: 25px;
     transition: 0.3 ease-out;
      position: absolute;
-    left: 20px; /* sagad sa left */
+    left: 20px; 
     top: 20px;
 }
 .nav-icons :hover{

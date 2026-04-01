@@ -44,7 +44,7 @@ p{
 
 }
 
-.container{ /*ung box*/
+.container{ 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

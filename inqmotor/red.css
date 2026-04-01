@@ -83,6 +83,12 @@ body{
 .nav-icons{
     color: #fff;
 }
+.nav-icons a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
 
 .prod{ 
     background-color: #fff;

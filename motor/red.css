@@ -64,7 +64,7 @@ body{
     -webkit-text-fill-color: rgb(10, 35, 56);   
 }
 
-.container{ /*ung box*/
+.container{ 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
