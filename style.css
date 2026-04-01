@@ -7,6 +7,7 @@
 }
 body{
     background-color: black;
+    background: url(frontpage.avif);
 }
 body::before{
     content: 'DRIFT';
